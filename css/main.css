@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #dbd6cf;
 }
 
 *, *::before, *::after {
@@ -13,10 +12,15 @@ header {
   background-color: #79756f;
 }
 
+body {
+  background-color: #dbd6cf;
+  margin: 0;
+}
+
 h1 {
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan", cursive;
   text-align: center;
-  padding: .6em 0 0;
+  padding: .2em 0 0;
   margin: 0;
   color: #fff;
   border-top-style: solid;
@@ -25,7 +29,7 @@ h1 {
 }
 
 nav ul {
-  padding: .1em 0 1em;
+  padding: .1em 2em 1em;
   margin: 0;
   text-align: center;
   border-bottom-style: solid;
